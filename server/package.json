@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for Animal Farm project.",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build && node ."
+  },
+  "author": "skywalkerSam",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.12.2",
+    "chance": "^1.1.11",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
